@@ -8,8 +8,6 @@ public class ExemploOptional {
 
         System.out.println(optionalString.isPresent()); //
 
-        //System.out.println(); //se valor vazio retorna true se não false
-
         optionalString.ifPresent(System.out::println);
 
         optionalString.ifPresentOrElse(System.out::println,
